@@ -15,7 +15,7 @@
         - name: start nginx
           service: 
           name: nginx
-          state : started
+          state: started
           become: yes
  
         - name: index

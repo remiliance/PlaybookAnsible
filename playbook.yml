@@ -1,5 +1,5 @@
 - hosts: webserver
-      remote_user: linux
+      remote_user: ec2-user
       become: yes
       become_method: sudo
       tasks:

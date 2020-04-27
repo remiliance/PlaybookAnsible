@@ -1,6 +1,5 @@
 - hosts: webserver
-      remote_user: ec2-user
-      become: yes
+      become: all
       become_method: sudo
       tasks:
         - name: install nginx

@@ -1,5 +1,5 @@
 - hosts: webserver
-  remote_user: ec2-user
+  remote_user: ubuntu
   become: yes
   gather_facts: no
   pre_tasks:
